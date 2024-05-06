@@ -7,7 +7,7 @@
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #3939d9f2;
+  background: #86469C;
 }
 .container {
   padding: 0 100px;
@@ -19,17 +19,23 @@ body {
 }
 .page {
   margin-left: 120px;
-  background: #e5e5e5;
+  background: #BC7FCD;
   padding: 40px;
   height: 100vh;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
+}
+.logo{
+  width: 30%;
+  height: fit-content;
+  margin-bottom: 10px;
 }
 @media (max-width: 1208px) {
   .page {
     margin-left: 0;
     border-radius: 0;
   }
+  
 }
 @media (max-width: 485px) {
   .page {
@@ -43,14 +49,14 @@ body {
 }
 .form-title{
   font-size: 1.75rem;
-  color: #111;
+  color: #86469C;
   margin-bottom: 30px;
 }
 .form-component {
   padding-top: 40px;
   padding-bottom: 60px;
   min-height: 100vh;
-  background: #e5e5e5;
+  background: #BC7FCD;
 
   display: flex;
   justify-content: center;
@@ -85,7 +91,7 @@ body {
 .form-component p:first-child {
   font-size: 28px;
   font-weight: 700;
-  color: #370080a3;
+  color: #BC7FCD;
   margin-top: 30px;
 }
 .form-component form div {
@@ -191,17 +197,17 @@ body {
   font-size: 34px;
 }
 .dashboard .banner:first-child .firstBox .content div h5 {
-  color: #ff008d;
+  color: #FB9AD1;
 }
 .dashboard .banner:first-child .firstBox .content p {
   font-size: 16px;
 }
 .dashboard .banner:first-child .secondBox {
-  background: #3939d9f2;
+  background: #86469C;
   color: #fff;
 }
 .dashboard .banner:first-child .thirdBox {
-  color: #ff008d;
+  color: #FB9AD1;
   background: #fff;
 }
 .dashboard .banner:first-child .secondBox,
@@ -235,11 +241,11 @@ body {
   font-size: 24px;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  color: #111;
+  color: #FFCDEA;
 }
 .dashboard .banner table {
   width: 100%;
-  color: #111;
+  color: #FFCDEA;
   font-size: 20px;
 }
 .dashboard .banner table select {
@@ -360,7 +366,7 @@ body {
 }
 .sidebar svg:hover {
   background: #fff;
-  color: #3939d9f2;
+  color: #86469C;
   border-radius: 8px;
   transition: 0.3s;
   cursor: pointer;
@@ -379,7 +385,7 @@ body {
 
 @media (max-width: 1208px) {
   .sidebar {
-    background: #3939d9f2;
+    background: #86469C;
     left: -100%;
     transition: 0.3s;
   }
@@ -393,7 +399,7 @@ body {
     top: 30px;
     left: 40px;
     font-size: 34px;
-    background: #3939d9f2;
+    background: #86469C;
     color: #fff;
     height: 40px;
     width: 40px;
@@ -416,7 +422,7 @@ body {
 }
 
 .doctors h1 {
-  color: #3939d9f2;
+  color: #86469C;
   margin-bottom: 30px;
   font-size: 2.3rem;
 }
@@ -467,7 +473,7 @@ body {
 }
 
 .messages h1 {
-  color: #3939d9f2;
+  color: #86469C;
   margin-bottom: 30px;
   font-size: 2.3rem;
 }

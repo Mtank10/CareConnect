@@ -7,7 +7,7 @@
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #e5e5e5;
+  background: #86469C
 }
 .btn {
   padding: 7px 20px;
@@ -462,13 +462,13 @@ nav .navLinks .links {
 }
 nav .navLinks .links a {
   text-decoration: none;
-  color: #222;
+  color: #BC7FCD;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1.4px;
 }
 nav .navLinks .links a:hover {
-  color: #000;
+  color: #651081;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -483,10 +483,10 @@ nav .btn {
   z-index: 2;
 }
 nav .logoutBtn {
-  background: linear-gradient(135deg, black, rgb(49, 49, 49));
+  background: linear-gradient(135deg, #FFCDEA, rgb(49, 49, 49));
 }
 nav .loginBtn {
-  background: linear-gradient(135deg, black, rgb(49, 49, 49));
+  background: linear-gradient(135deg, #FFCDEA, rgb(66, 31, 87));
 }
 nav .hamburger {
   display: none;
@@ -502,7 +502,7 @@ nav svg {
 }
 @media (max-width: 1100px) {
   nav {
-    background: #ffffffbf;
+    background: #FB9AD1;
     position: fixed;
     top: 0;
     left: 0;
@@ -521,7 +521,7 @@ nav svg {
     left: 0;
     height: 100%;
     width: 400px;
-    background: #ffffffbf;
+    background: #FB9AD1;
     top: 79px;
   }
   nav .showmenu {
@@ -535,7 +535,7 @@ nav svg {
     left: -100%;
     width: 400px;
     height: 100%;
-    background: #ffffffbf;
+    background: #FB9AD1;
     top: 79px;
   }
   nav .navLinks .links {
@@ -563,10 +563,10 @@ nav svg {
 }
 @media (max-width: 555px) {
   nav {
-    background: #fff;
+    background: #BC7FCD;
   }
   nav .navLinks {
-    background: #fff;
+    background: #FB9AD1;
     width: 100%;
   }
 }
