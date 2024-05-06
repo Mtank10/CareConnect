@@ -15,7 +15,7 @@ config({path:'./config/.env'})
 
 app.use(
     cors({
-        origin:['http://localhost:5173','http://localhost:5174'],
+        origin:['https://care-connect-rust.vercel.app','http://localhost:5174'],
         methods:['GET','POST','PUT','DELETE'],
         credentials:true
     })
